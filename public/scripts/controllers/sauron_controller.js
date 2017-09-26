@@ -1,4 +1,4 @@
-myApp.controller('SauronController', function(){
+myApp.controller('SauronController', function(HighfiveService){
     var vm = this;
     vm.message = true;
 
@@ -10,4 +10,6 @@ myApp.controller('SauronController', function(){
     vm.showMessage = function(){
         vm.message = !vm.message;
     };
+
+    console.log(HighfiveService.skillLevelSauron);
 });
