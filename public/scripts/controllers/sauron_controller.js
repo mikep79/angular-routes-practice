@@ -1,3 +1,8 @@
 myApp.controller('SauronController', function(){
-    console.log('in SC');
+    var vm = this;
+    
+    vm.playSound = function(){
+        var sound = new Audio('sounds/work.wav');
+        sound.play();
+    };
 });

@@ -1,3 +1,7 @@
 myApp.controller('FrodoController', function(){
-    console.log('in FC');
+    var vm = this;
+    vm.message = false;
+    vm.showMessage = function(){
+        vm.message = !vm.message;
+    };
 });

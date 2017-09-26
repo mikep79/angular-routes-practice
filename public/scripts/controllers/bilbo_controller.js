@@ -1,3 +1,6 @@
 myApp.controller('BilboController', function(){
-    console.log('in BC');
+    var vm = this;
+    vm.sayHello = function(){
+        alert('Hey there, I\'m Bilbo Baggins!');
+    };
 });
