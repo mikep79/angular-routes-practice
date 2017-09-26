@@ -3,4 +3,14 @@
     <br>
     <img ng-click='SC.playSound()' src='https://vignette.wikia.nocookie.net/lotr/images/1/1e/Eye.jpg/revision/latest?cb=20100425151333'/>
     <p> click and listen ^</p>
+    <p>Say something back! : </p>
+    <input type='text' ng-model='SC.response'><button ng-click='SC.showMessage()'>... and click!</button>
+    <p>
+        {{ SC.response }}
+    </p>
+    <p ng-hide='SC.message'>
+        Haha, good one!
+        <br>
+        <img width = '200px' src='https://qph.ec.quoracdn.net/main-qimg-c4e4ecb84e9741934a44eb543bc80aba-c'>
+    </p>
 </section>
