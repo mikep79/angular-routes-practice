@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src='vendors/angular.min.js'></script>
+    <script src='vendors/angular-route.js'></script>
     <script src='scripts/client.js'></script>
+    <script src='scripts/controllers/home_controller.js'></script>
+    <script src='scripts/controllers/frodo_controller.js'></script>
+    <script src='scripts/controllers/bilbo_controller.js'></script>
+    <script src='scripts/controllers/sauron_controller.js'></script>
     <title>ng Practice</title>
 </head>
-<body>
+<body ng-app='myApp'>
+    <nav>
+            <button><a href='#!/'>Home</a></button>
+            <button><a href='#!/frodo'>Frodo</a></button>
+            <button><a href='#!/bilbo'>Biblo</a></button>
+            <button><a href='#!/sauron'>Sauron</a></button>
+    </nav>
 
-    <h1>TEST</h1>
+    <ng-view></ng-view>
     
 </body>
 </html>
