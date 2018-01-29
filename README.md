@@ -1,17 +1,5 @@
-# Angular-Routes-Solo
-In this assignment we will be using Angular Routes to display information on 3 fictional characters of your choice. Your page should have a header and footer of some kind, and 3 buttons to swap out the content of the characters.
+# Angular Routes
+Prime project. The purpose of this project was to use AngularJS routing to serve HTML pages, using a service file and separate controllers for each page view. Each page has a character that the user can interact with, and "high five". The quality of the high five is a randomly generated number, and the counter displays the number of successful high fives (if the quality number exceeds that of each character's skill level) over the number of attempts.
 
-### Sample Characters
-
-* Harry Potter (Harry Potter books/movies)
-* Storm (X-Men)
-* Frodo (Lord of the Rings)
-* Samus Aran (Metroid)
-* Indiana Jones (movies)
-* Michonne (Walking Dead)
-
-## Content
-Feel free to use Google for the content or make up your own! Include some images and give it your best styling effort. 
-
-## Hard Mode
-Use `ng-show`, `ng-hide`, or `ng-if` to add some dynamic elements to your views when users click on things.
+## Technology used
+Angular, JavaScript, CSS, HTML. Focus on using controllers and service, and ng-if's.
